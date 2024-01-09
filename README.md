@@ -1,6 +1,6 @@
 # rsf-data-visualizer
 
-A Django web app for tracking optimal visit times in UC Berkeley's Recreational Sports Facility. It utilizes a script to scrape publicly available data that is used to build a Plotly graph representing the daily trend.
+A Django web app for tracking optimal visit times in the weight room of UC Berkeley's Recreational Sports Facility. It utilizes a script to scrape publicly available data that is used to build a Plotly graph representing the daily trend.
 
 I am currently migrating the data collection pipeline to the cloud, using AWS Lambda functions to collect and process data in DynamoDB tables, using an S3 bucket for long term data storage. Another feature is exploring time-series forecasting methods to make predictions about optimal visit times.
 
